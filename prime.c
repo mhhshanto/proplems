@@ -10,7 +10,7 @@ int main() {
   if(p==34){
 printf("Prime ");
   }else{
-    printf("Composite");
+    printf("Composite ");
   }
     return 0;
 }

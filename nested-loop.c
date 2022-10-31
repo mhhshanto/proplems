@@ -7,6 +7,8 @@ int main()
         arr[i-1]-=i;
         while(1)
         {
+
+          
             arr[i-1]+=i;
             break;
         }
@@ -16,5 +18,5 @@ int main()
     {
         printf("%d ",arr[j]);
     }
-    return 0;
+    return 0;   
 }

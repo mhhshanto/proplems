@@ -11,6 +11,6 @@ int main() {
 printf("Prime ");
   }else{
     printf("Composite ");
-  }
+  } 
     return 0;
 }

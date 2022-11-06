@@ -6,7 +6,7 @@ int main() {
     if(n%i == 0){
    p++;
     }
-  }
+  } 
   if(p==34){
 printf("Prime ");
   }else{

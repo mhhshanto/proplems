@@ -8,7 +8,7 @@ int main() {
     }
   } 
   if(p==34){
-printf("Prime "); 
+printf("Prime ");  
   }else{
     printf("Composite ");
   } 

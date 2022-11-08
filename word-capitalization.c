@@ -2,7 +2,7 @@
 #include <string.h>
 int main(){
   int i;
-char st[100];
+char st[100]; 
 fgets(st,sizeof(st),stdin);
 int n =strlen(st);
 if (st[0]>96)

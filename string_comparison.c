@@ -36,7 +36,7 @@ int main(){
   }else if (a>b)
   {
     printf("1");
-  }else{
+  }else{ 
     printf("-1");
   }
   

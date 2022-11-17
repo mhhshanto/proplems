@@ -10,7 +10,7 @@ int main(){
     }else{
       sum-= pow(i,2);
     }
-       
+        
   }
   printf("%d",sum);
   return 0;

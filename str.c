@@ -5,4 +5,4 @@ int main(){
   char nam2[]="a";
   printf("%d\n",strcmp(nam2,nam));
 }
-  
+   

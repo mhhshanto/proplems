@@ -30,4 +30,4 @@ for (i = 0; i < row; ++i) {
     printf("\n");
 } 
 return 0;
-}
+} 

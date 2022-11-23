@@ -14,7 +14,7 @@ int main(){
       if (tempMinus > tempplus)
       { 
         tempplus = 0;
-      } 
+      }  
       
     }else if (arr[i] == '+' && arr[i+1])
     {

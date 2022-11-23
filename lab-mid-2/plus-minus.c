@@ -12,7 +12,7 @@ int main(){
     {
       tempMinus+=1;
       if (tempMinus > tempplus)
-      {
+      { 
         tempplus = 0;
       }
       

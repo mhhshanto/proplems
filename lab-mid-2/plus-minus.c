@@ -6,7 +6,7 @@ int main(){
   scanf("%d",&n);
   char arr[100];
   scanf("%s",arr);
-  for ( i = 0; i < n; i++)
+  for (i = 0; i < n; i++)
   {
     if (arr[i] == '-' && arr[i+1]== '-')
     {
@@ -31,6 +31,5 @@ int main(){
   }else{
     printf("%d",tempMinus);
   }
-  
   return 0;
 }

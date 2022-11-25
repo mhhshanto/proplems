@@ -8,7 +8,7 @@ while (s != 0)
   s= s/10;
 }
 return 0; 
-}  
+}   
 int main(){
   long long int s;
   scanf("%lld",&s);

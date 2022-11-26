@@ -21,7 +21,7 @@ for ( i = 1; i < m ; i++)
     }
     return 0;
 } 
-
+ 
 int main(){
   int a,b;
   scanf("%d%d",&a,&b);

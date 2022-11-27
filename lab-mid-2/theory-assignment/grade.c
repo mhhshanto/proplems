@@ -20,7 +20,7 @@ int main(){
   scanf("%d",&i);
   int grade = get_grade(i);
 if (grade == 1)
-{
+{ 
   printf("A");
 } else if (grade == 2)
 {

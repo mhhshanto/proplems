@@ -10,24 +10,22 @@ int facto(x){
 }
 
 int rat(int m,int n){
-int p= 0;
-int i;
-for ( i = 1; i < m ; i++)
-{
-  if (m % i == 0 && n % i == 0)
+  if (m>n)
   {
-    return i;
-}
-    }
+    return m/n;
+  }else{
+    return n/m;
+  }
+  
     return 0;
 } 
- 
+
 int main(){
   int a,b;
   scanf("%d%d",&a,&b);
   int m = facto(a);
    int n = facto(b);
-  int fact = rat(m,n);
-  printf("%d",fact);
+  int fac = rat(m,n);
+  printf("%d",fac);
   return 0;
 }

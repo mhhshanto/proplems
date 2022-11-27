@@ -23,7 +23,7 @@ if (grade == 1)
 {  
   printf("A");
 } else if (grade == 2)
-{
+{ 
   printf("B");
 }else if (grade == 3)
 {

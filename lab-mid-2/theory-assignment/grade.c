@@ -14,7 +14,7 @@ if (i>= 80 && i<=100)
   return 4;
 }
 return 0;
-}
+} 
 int main(){
   int i;
   scanf("%d",&i);

@@ -31,6 +31,6 @@ if (grade == 1)
 }else if (grade == 4)
 {
   printf("F");
-}
+} 
 return 0;
 }

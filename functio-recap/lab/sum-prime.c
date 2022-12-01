@@ -23,7 +23,7 @@ int main(){
   int n;
   scanf("%d",&n);
   if (is_prime(sum(n))== 1)
-  {
+  { 
     printf("shantos number");
   }else{
     printf("no");

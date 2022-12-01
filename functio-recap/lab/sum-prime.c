@@ -18,7 +18,7 @@ while (a>0)
   a= a/10;
 }
 return summ;
-}
+} 
 int main(){
   int n;
   scanf("%d",&n);

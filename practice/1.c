@@ -11,4 +11,4 @@ int main(){
   avg(a,b,&avr,&sum);
   printf("%f",avr);
   return 0;
-}
+} 

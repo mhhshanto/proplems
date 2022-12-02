@@ -6,7 +6,7 @@ void avg(int a,int b, float *avr,int *sum ){
 int main(){
   float avr;
   int a,b,sum;
- 
+  
   scanf("%d%d",&a,&b);
   avg(a,b,&avr,&sum);
   printf("%f",avr);

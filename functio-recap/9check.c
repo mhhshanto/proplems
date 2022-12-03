@@ -29,7 +29,7 @@ float avg(int ln,int arr[100]){
   }
   printf("%d..",sum);
   return sum/ln;
-} 
+}  
  
 int main(){
   int arr[100];

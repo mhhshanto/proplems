@@ -6,7 +6,6 @@ for (int i = 0; i < ln; i++)
   int p = 0;
   for (int j = 2; j < arr[i]; j++)
   {
-    
     if ( arr[i]%j == 0)
     {
       p++;
@@ -20,17 +19,18 @@ for (int i = 0; i < ln; i++)
 }
 return ln-count;
 }
-
 float avg(int ln,int arr[100]){
-  int sum;
+  int sum=0;
+  int devide_by = 0;
   for (int i = 0; i < ln; i++)
   {
-    sum += arr[i];
+    if(arr[i]%2 == 0){
+      sum += arr[i];
+      devide_by ++;
+    }
   }
-  printf("%d..",sum);
-  return sum/ln;
+  return sum/devide_by;
 }  
- 
 int main(){
   int arr[100];
   int ln;
@@ -39,10 +39,8 @@ int main(){
   {
     scanf("%d",&arr[i]);
   }
-
 float av = avg(ln,arr);
 int s = is_prime(ln,arr);
-
 printf("Prime numbers: %d \n",s);
 printf("Average of all even integers: %f",av);
  return 0; 

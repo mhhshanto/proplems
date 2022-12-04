@@ -2,6 +2,8 @@
   "files.associations": {
     "stdio.h": "c",
     "__locale": "c",
-    "ios": "c"
+    "ios": "c",
+    "__tuple": "c",
+    "array": "c"
   }
 }

@@ -7,4 +7,4 @@ int main()
   ptr = (int*) malloc(1*sizeof(int));
   printf("%d",*ptr);
   return 0;
-} 
+}  

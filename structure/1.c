@@ -10,7 +10,7 @@ struct student
 
 int main(){
   struct student s[10];
- s[0]
+ s[0] 
   
   printf("%s",shanto.name);
 }

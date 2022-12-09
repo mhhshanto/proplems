@@ -24,4 +24,4 @@ int main(){
   struct triangle t = {p1,p2,p3};
   struct point c = centroid(t);
 
-}
+} 

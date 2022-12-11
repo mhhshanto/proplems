@@ -10,4 +10,4 @@ int main()
   printf("%d %d %d",
           x, y, sum(x, y));
   return 0;
-}
+} 

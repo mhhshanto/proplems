@@ -8,7 +8,7 @@ struct triangle{
   struct point A;
   struct point B;
   struct point C;
-}
+};
 struct point centroid(struct triangle t)
 {
   struct point ans;

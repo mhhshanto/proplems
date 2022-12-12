@@ -5,7 +5,7 @@ int sum(int n){
   }else {
     return 1;
   };
-};
+}; 
 int main(){
   int n;
   scanf("%d",&n);

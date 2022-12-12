@@ -12,4 +12,4 @@ int main(){
   int res = sum(n);
   printf("%d",res);
   return 0;
-}   
+}    

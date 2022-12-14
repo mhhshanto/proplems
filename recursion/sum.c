@@ -1,15 +1,15 @@
 #include <stdio.h>
-int sum(int n){
-  if(n>0){
-   return n*sum(n-1);
+int sum(int b,int a){
+  if(b>0){
+   return (b*a)+sum(n-1,a);
   }else {
-    return 1;
+    return 0;
   };
 }; 
 int main(){
-  int n;
-  scanf("%d",&n);
-  int res = sum(n);
+  int b,a;
+  scanf("%d %d",&b,&a);
+  int res = sum(b,a);
   printf("%d",res);
   return 0;
 }    

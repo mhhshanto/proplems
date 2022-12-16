@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdbool.h>
 void printCell(int a[][4],int n){
 for (int i = 1; i <= n; i++)
 {
@@ -31,6 +32,10 @@ for (int i = 1; i <= n; i++)
   }
   
 }
-printCell(a,n);
+while (true)
+{
+  printCell(a,n);
+}
+
   return 0;
 }

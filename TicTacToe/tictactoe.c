@@ -39,7 +39,7 @@ for (int i = 1; i <= n; i++)
     if(a[i][j]== 2) printf("O");
     if (j<n)printf("\t | \t"); 
   }
-  printf("\n");
+  printf("\n"); 
   if (i<n)
   {
     printf("___________________________________");

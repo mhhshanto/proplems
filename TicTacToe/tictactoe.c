@@ -23,7 +23,7 @@ int isWin(int a[][4],int n){
       return a[2][2];
     }
     
-  return -1 ;
+  return -1 ; 
 } 
 void printCell(int a[][4],int n){
 for (int i = 1; i <= n; i++)
